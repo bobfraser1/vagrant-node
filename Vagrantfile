@@ -1,8 +1,8 @@
-VAGRANT_BOX = 'bobfraser1/alpine314'
+VAGRANT_BOX = 'bobfraser1/alpine315'
 VM_HOSTNAME = 'alpine1'
 VM_NETWORK = 'vboxnet1'
 VM_MAC = '080027000010'
-VM_IP = '192.168.1.10'
+VM_IP = '192.168.60.10'
 VM_MEMORY = '2048'
 VM_CPUS = '2'
 

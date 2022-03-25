@@ -38,7 +38,7 @@ Format the MAC address as an ethernet address. Example:
 
 SSH into your alpine router and edit `/etc/dnsmasq.conf`. Add a `dhcp-host` entry with the ethernet address, hostname, and IP address. Example:
 
-    dhcp-host=08:00:27:00:00:10,alpine1,192.168.1.10,infinite
+    dhcp-host=08:00:27:00:00:10,alpine1,192.168.60.10,infinite
 
 Restart `dnsmasq`:
 
@@ -59,11 +59,11 @@ SSH into the node:
 Use `ping` of a public host such as google.com to ensure public network access. Use `ip addr show` to see that the correct IP address was assigned. Use `nslookup` to see that the nameserver returns the proper FQDN:
 
     alpine1:~$ nslookup alpine1
-    Server:     192.168.1.2
-    Address:    192.168.1.2:53
+    Server:     192.168.60.2
+    Address:    192.168.60.2:53
 
     Name:    alpine1.example.com
-    Address: 192.168.1.10
+    Address: 192.168.60.10
 
 ## Troubleshooting
 
