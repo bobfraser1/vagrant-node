@@ -1,4 +1,4 @@
-VAGRANT_BOX = 'bobfraser1/alpine315'
+VAGRANT_BOX = 'bobfraser1/alpine316'
 VM_HOSTNAME = 'alpine1'
 VM_NETWORK = 'vboxnet1'
 VM_MAC = '080027000010'
